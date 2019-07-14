@@ -1,8 +1,10 @@
 import javax.swing.*;
 
 public class Main {
-
+    public static Database db = new Database();
     public static void main(String[] args) throws Exception{
+        //db.connect();
+
         try {
             UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
         }
